@@ -5,8 +5,8 @@
 
 ============================================================
 
-INPUT_PATH=/scratch/prj/mmg_scmethbank/GSE121708/batch01/rna_se/trim
-OUTPUT_PATH=/scratch/prj/mmg_scmethbank/GSE121708/batch01/rna_se
+INPUT_PATH=<full-path-to-directory-with-input-files>
+OUTPUT_PATH=<full-path-to-directory-with-processed-files>
 
 
 
@@ -50,7 +50,7 @@ OUTPUT_PATH=/scratch/prj/mmg_scmethbank/GSE121708/batch01/rna_se
 > Select one of the tools and assign to variable below: <Bismark>, <STAR>
 > Select <Skip> if you wish to skip this step.
 
-	TOOL=STAR
+	TOOL=Skip
 
 > Bismark parameters (BS-Seq only)
 > For extra parameters, please, type <bismark_genome_preparation --help> and specify below
@@ -72,7 +72,7 @@ OUTPUT_PATH=/scratch/prj/mmg_scmethbank/GSE121708/batch01/rna_se
 > Select one of the tools and assign to variable below: <Bismark>, <STAR>.
 > Select <Skip> if you wish to skip this step.
 
-	TOOL=STAR
+	TOOL=Skip
 
 > Bismark parameters (BS-Seq only)
 > For extra parameters, please, type <bismark --help> and specify below
@@ -120,7 +120,7 @@ OUTPUT_PATH=/scratch/prj/mmg_scmethbank/GSE121708/batch01/rna_se
 > Select one of the tools and assign to variable below: <Samtools>.
 > Select <Skip> if you wish to skip this step.
 	
-	TOOL=Samtools
+	TOOL=Skip
 
 > Samtools parameters.
 > For extra parameters, please, type <samtools merge> and specify below
